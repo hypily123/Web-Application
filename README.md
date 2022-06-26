@@ -6,11 +6,11 @@ This project would require **Java 8** and **Maven** to be set up.
 To set up maven use the tutorial in the link : https://www.baeldung.com/install-maven-on-windows-linux-mac
 
 ## Database
-We are utilizing  **MySQL** and **JPA** to perform database operations.
+**MySQL** and **JPA** required.
 
 ## Environment Variables or VM arguments.
-	 salt=<thesaltofyourchoice>
-	 dbpwd=<YourDatabasePassword>
+	 salt=<salt>
+	 dbpwd=<database-Password>
 Please enter it as in your VM arguments
 ````
 salt=mysalt;dbpwd=mypassword
